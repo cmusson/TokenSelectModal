@@ -1,0 +1,17 @@
+.pinButton {
+  background-color: transparent;
+  border: none;
+  opacity: 0.6;
+  border-radius: 10px;
+  width: 14px;
+  padding: 1px;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+    background-color: #0f2339;
+  }
+}
+
+.pinIcon {
+  width: 100%;
+}

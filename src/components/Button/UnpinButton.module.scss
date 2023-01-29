@@ -1,0 +1,22 @@
+.unpinButton {
+  background-color: #0f2339;
+  border: none;
+  opacity: 0.8;
+  border-radius: 10px;
+  // height: 15px;
+  width: 8px;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.unpinIcon {
+  width: 100%;
+}

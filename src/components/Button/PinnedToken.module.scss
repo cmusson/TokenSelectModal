@@ -1,0 +1,41 @@
+.selectTokenButton {
+  display: flex;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    border: solid white 1px;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 78px;
+    padding: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+
+  &:hover {
+    opacity: 1;
+    background-color: #0f2339;
+    .unpinContainer {
+      visibility: visible;
+    }
+  }
+}
+
+.icon {
+  width: 28px;
+  padding-right: 2px;
+}
+
+.unpinContainer {
+  visibility: hidden;
+  position: absolute;
+  margin-left: 63px;
+  padding-bottom: 37px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
+  marker: none;
+  height: 42px;
+}
